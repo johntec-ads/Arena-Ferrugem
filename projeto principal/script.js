@@ -180,7 +180,11 @@ let lista = new Lista([
     posicao: "Meio",
     habilidade: 2
   },
-  
+  {
+    nome: "João Frango",
+    posicao: "Defesa",
+    habilidade: 2
+  },
   {
     nome: "Miguel",
     posicao: "Defesa",
@@ -268,7 +272,7 @@ let lista = new Lista([
   }, */
 
   {
-    nome: "Alisson",
+    nome: "Alison",
     posicao: "Ataque",
     habilidade: 2
   },
@@ -286,7 +290,12 @@ let lista = new Lista([
     nome: "Odimar",
     posicao: "Defesa",
     habilidade: 1
-  },  
+  },
+  {
+    nome: "Felipe",
+    posicao: "Defesa",
+    habilidade: 2
+  },
   {
     nome: "Leonardo Ramalho",
     posicao: "Meio",
