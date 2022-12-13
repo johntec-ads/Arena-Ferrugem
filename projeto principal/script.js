@@ -139,29 +139,30 @@ class Lista {
     this._timeAmarelo = timeAmarelo;
     this._timeAzul = timeAzul;
 
-    let cont = 1;
+    let contA = 1;
+    let contB = 1
 
     for (let i in this._timeAmarelo){
 
       let lista = document.createElement('ul');
       let item = document.createElement('li');
-      let texto = document.createTextNode(`${`${cont.toString().padStart(2, 0)}-${timeAmarelo[i].nome.toString()}`}`);      
+      let texto = document.createTextNode(`${`${contA.toString().padStart(2, 0)}-${timeAmarelo[i].nome.toString()}`}`);      
       item.appendChild(texto);
       lista.appendChild(item);     
       let equipeAmarela = document.getElementById("equipe-amarela")      
       equipeAmarela.appendChild(lista);
-      cont ++      
+      contA ++      
     }
 
     for (let i in this._timeAzul){
       let lista = document.createElement('ul');
       let item = document.createElement('li');
-      let texto = document.createTextNode(`${`${cont.toString().padStart(2, 0)}-${timeAzul[i].nome.toString()}`}`);      
+      let texto = document.createTextNode(`${`${contB.toString().padStart(2, 0)}-${timeAzul[i].nome.toString()}`}`);      
       item.appendChild(texto);
       lista.appendChild(item);     
       let equipeAmarela = document.getElementById("equipe-azul")      
       equipeAmarela.appendChild(lista);
-      cont ++      
+      contB ++      
     }
 
 

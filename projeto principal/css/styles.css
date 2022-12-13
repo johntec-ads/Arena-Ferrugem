@@ -1,0 +1,29 @@
+
+#corpo{
+  border: 5px;
+  background-color: rgb(103, 175, 179);
+  width: auto;
+  height: auto;
+}
+
+#container-amarelo{  
+  
+  width: 50%;
+  height: 50%;
+  float: left;
+  
+  
+}
+#container-azul{  
+  
+  width: 50%;
+  height: 50%;
+  float: right;
+  
+}
+#rodape{
+  background-color: rgb(65, 165, 42);
+  clear: both;
+  text-align: center;
+
+}
